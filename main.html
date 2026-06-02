@@ -7,6 +7,7 @@
   <title>GMP – Game Master Panel</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -30,21 +31,17 @@
         <div class="box-content"></div>
       </div>
 
-      <div class="timer">14:18</div>
+      <div class="timer">
+        <div id="timer"></div>
+      </div>
     </div>
 
     <div class="center-panel">
       <div class="camera">
-        <div class="camera-text">kamera</div>
-
-        <div class="camera-controls">
-          <span class="time">12:34</span>
-          <div class="progress-bar"></div>
-          <span class="live">na żywo</span>
-          <span class="fullscreen">⛶</span>
-        </div>
-        
-</div>
+        <video width="740" height="390" controls preload="metadata">
+          <source src="" type="video/mp4">
+        </video>
+      </div>
 
       <div class="main-buttons">
         <button class="btn">Zakończ Gre</button>
