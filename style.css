@@ -175,14 +175,14 @@ input::placeholder {
   font-size: 18px;
 }
 .timer {
-  margin: 20px;
+  margin: 0px;
 }
 
 #timer {
   display: inline-block;
   background-color: #1B263B;
   color: #ffffff;
-  padding: 12px 36px;
+  padding: 12px 56px;
   font-size: 38px;
   font-weight: bold;
   border-radius: 8px;
@@ -228,5 +228,24 @@ input::placeholder {
   justify-content: space-between;
   gap: 30px;
   padding: 20px;
+}
+
+.timer-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 60px;
+}
+
+.main-buttons {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+.main-buttons .btn {
+  flex: 1;
+  text-align: center;
+  padding: 18px;
+  font-size: 18px;
 }
 
