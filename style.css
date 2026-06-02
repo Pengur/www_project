@@ -146,3 +146,31 @@ input::placeholder {
   border-radius: 15px;
   font-size: 22px;
 }
+.notes {
+  margin: 20px 30px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.notes-title {
+  background-color: #1B263B;
+  color: #e5e5e5;
+
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+
+  padding: 10px;
+}
+
+.notes-content {
+  background-color: #778DA9;
+  min-height: 200px;
+
+  border: 2px solid #1B263B;
+  border-top: none;
+
+  padding: 15px;
+  color: #0D1B2A;
+  font-size: 18px;
+}
