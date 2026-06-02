@@ -114,5 +114,35 @@ input::placeholder {
   color: #ffffff;
 }
 
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #415A77;
+
+  padding: 15px 60px;
+  box-sizing: border-box;
+}
 
 
+.title {
+  font-size: 58px;
+  color: #e5e5e5;
+  font-weight: bold;
+}
+
+.cam-btn {
+  display: flex;
+  gap: 25px;
+}
+
+.cam-btn button {
+  background-color: #1B263B;
+  border: 3px solid #cfd6de;
+  color: white;
+
+  padding: 20px 60px;
+  border-radius: 15px;
+  font-size: 22px;
+}
