@@ -16,9 +16,9 @@
   <div class="navbar-main">
     <div class="title">GMP - Game Master Panel</div>
     <div class="cam-btn">
-      <button class="btn">cam1</button>
-      <button class="btn">cam2</button>
-      <button class="btn">cam3</button>
+      <button class="btn" id="cam1" onclick="changeCamera(this)">cam1</button>
+      <button class="btn" id="cam2" onclick="changeCamera(this)">cam2</button>
+      <button class="btn" id="cam3" onclick="changeCamera(this)">cam3</button>
     </div>
   </div>
 
@@ -33,8 +33,8 @@
     </div>
     <div class="center-panel">
       <div class="camera">
-        <video width="740" height="390" controls preload="metadata">
-          <source src="" type="video/mp4">
+        <video width="740" height="390" controls preload="metadata" id="video-player" autoplay loop muted>
+          <source src="media/placeholder1.mp4" id="cam-view" type="video/mp4">
         </video>
       </div>
     </div>
@@ -49,9 +49,9 @@
   <div class="timer-btn">
     <div id="timer"></div>
     <div class="main-buttons">
-      <button class="btn">Zakończ Gre</button>
-      <button class="btn">Włącz/Wyłącz Mikrofon</button>
-      <button class="btn">Zgłoś Problem</button>
+      <button class="btn" id="end-game" onclick="endGame()">Zakończ Gre</button>
+      <button class="btn" onclick="toggleMute()" id="toggle-mic">Włącz Mikrofon</button>
+      <button class="btn" onclick="reportProblem()">Zgłoś Problem</button>
       <button class="btn">Wyślij</button>
     </div>
   </div>
