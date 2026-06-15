@@ -212,6 +212,11 @@ input::placeholder {
   padding: 15px;
   color: #0D1B2A;
   font-size: 18px;
+  justify-content: center;
+  max-height: 300px;
+  overflow: scroll;
+
+  scrollbar-color: #e5e5e5 #e5e5e5;
 }
 
 .left-panel, .right-panel {  
@@ -248,3 +253,14 @@ input::placeholder {
   font-size: 18px;
 }
 
+.box-item {
+  position: relative;
+  /* width: max-content; */
+  width: 100%;
+  /* border-style: solid; */
+  /* border-color: #1B263B; */
+  /* border-bottom: 10px; */
+  border-bottom: 5px solid #1B263B;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
