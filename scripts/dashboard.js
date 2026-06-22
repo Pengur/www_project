@@ -8,9 +8,6 @@ function timer() {
   setTimeout(timer, 1000);
 }
 
-window.onload = function() {
-  timer();
-};
 
 function changeCamera(btn) {
   var srcDiv = document.getElementById("cam-view");
@@ -53,3 +50,12 @@ function toggleMute() {
     muted = true;
   }
 }
+
+function delAlert(alert) {
+  var al = alert;
+  alert.remove();
+}
+
+window.onload = function() {
+  timer();
+};

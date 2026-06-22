@@ -212,6 +212,11 @@ input::placeholder {
   padding: 15px;
   color: #0D1B2A;
   font-size: 18px;
+  justify-content: center;
+  max-height: 300px;
+  overflow: scroll;
+
+  scrollbar-color: #e5e5e5 #e5e5e5;
 }
 
 .left-panel, .right-panel {  
@@ -248,8 +253,6 @@ input::placeholder {
   font-size: 18px;
 }
 
-<<<<<<< Updated upstream
-=======
 .box-item {
   position: relative;
   /* width: max-content; */
@@ -285,4 +288,4 @@ input::placeholder {
     left: 30px;
     bottom: 30px;
 }
->>>>>>> Stashed changes
+
