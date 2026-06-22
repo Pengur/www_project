@@ -2,8 +2,9 @@ function timer() {
   var data = new Date();
   var h = data.getHours();
   var min = data.getMinutes();
+  var s = data.getSeconds();
   var now = ""+h+
-  ((min<10)?":0":":")+min;
+  ((min<10)?":0":":")+min+":"+s;
   document.getElementById("timer").innerHTML = now;
   setTimeout(timer, 1000);
 }
