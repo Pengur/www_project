@@ -31,9 +31,6 @@ function endGame() {
 function reportProblem() {
   window.location.href = "report.html";
 }
-function dashboard() {
-  window.location.href = "dashboard.html";
-}
 let muted = true;
 function toggleMute() {
   var audio;
@@ -60,3 +57,7 @@ function delAlert(alert) {
 window.onload = function() {
   timer();
 };
+
+function toggleHint(hint) {
+  hint.classList.toggle("toggled");
+}

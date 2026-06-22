@@ -290,3 +290,6 @@ input::placeholder {
     bottom: 30px;
 }
 
+.toggled {
+  color: #e5e5e5;
+}

@@ -7,28 +7,29 @@
   <title>GMP – Game Master Panel</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles/style.css" />
-  <script src="scripts/dashboard.js" defer></script>
+  <script src="scripts/report.js" defer></script>
 </head>
+
 <body>
-    <div class="navbar">
-      <h1>GMP - Game Master Panel</h1>
+  <div class="navbar">
+    <h1>GMP - Game Master Panel</h1>
+  </div>
+
+  <div class="report-box">
+    <div class="notes-title">
+      Opisz swój problem
     </div>
 
-    <div class="report-box">
-      <div class="notes-title">
-        Opisz swój problem
-      </div>
+    <div class="notes-content" id="report-content" contenteditable="true"></div>
+  </div>
 
-      <div class="notes-content" contenteditable="true"></div>
-    </div>
+  <div class="send-container">
+    <button class="btn" onclick="sendReport()">wyślij</button>
+  </div>
 
-    <div class="send-container">
-      <button class="btn">wyślij</button>
-    </div>
-
-    <div class="back-container">
-      <button class="btn" onclick="dashboard()">Powrót</button>
-    </div>
+  <div class="back-container">
+    <button class="btn" onclick="dashboard()">Powrót</button>
+  </div>
 </body>
 
 </html>
