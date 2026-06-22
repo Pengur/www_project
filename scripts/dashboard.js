@@ -33,7 +33,9 @@ function endGame() {
 function reportProblem() {
   window.location.href = "report.html";
 }
-
+function dashboard() {
+  window.location.href = "dashboard.html";
+}
 let muted = true;
 function toggleMute() {
   var audio;

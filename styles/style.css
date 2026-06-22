@@ -248,3 +248,41 @@ input::placeholder {
   font-size: 18px;
 }
 
+<<<<<<< Updated upstream
+=======
+.box-item {
+  position: relative;
+  /* width: max-content; */
+  width: 100%;
+  /* border-style: solid; */
+  /* border-color: #1B263B; */
+  /* border-bottom: 10px; */
+  border-bottom: 5px solid #1B263B;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+.report-box {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.report-box .notes-content {
+    min-height: 350px;
+}
+.send-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.send-container .btn {
+    width: 220px;
+    height: 55px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.back-container {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+>>>>>>> Stashed changes
